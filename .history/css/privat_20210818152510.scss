@@ -1,0 +1,166 @@
+.main_top {
+  background: url("../img/privat_product_top_bg.jpg") no-repeat center / cover;
+}
+
+.year_partners {
+  padding-top: 50px;
+  padding-bottom: 205px;
+
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url("../img/form_bg_blur.png") no-repeat center / contain;
+  }
+
+  &:before {
+    width: 136px;
+    height: 131px;
+    bottom: 425px;
+    left: 40px;
+  }
+
+  &:after {
+    width: 231px;
+    height: 289px;
+    transform: rotate(190deg);
+    bottom: 125px;
+    right: 72px;
+  }
+
+  .above_title,
+  .title_h2 {
+    text-align: center;
+  }
+
+  .title_h2 {
+    margin-bottom: 90px;
+  }
+
+  .year_partners_carousel .owl-stage {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .owl-dots {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .owl-dot {
+      width: 14px;
+      height: 14px;
+      background-color: #dddee0;
+      border-radius: 50%;
+      transition: background-color 180ms;
+
+      &:hover,
+      &.active {
+        background-color: #f2312a;
+        transition: background-color 180ms;
+      }
+
+      & + .owl-dot {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .owl-nav {
+    position: absolute;
+    left: -31px;
+    top: 230px;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% + 62px);
+    pointer-events: none;
+
+    button {
+      pointer-events: all;
+      border-radius: 50%;
+      width: 61px;
+      height: 62px;
+      box-shadow: 0 -5px 15px rgba(36, 36, 36, 0.25);
+      background: #ffffff url("../img/rad_arrow.svg") no-repeat center !important;
+      transform: rotate(90deg);
+      opacity: 0.9;
+      transition: opacity 180ms;
+
+      &:hover {
+        opacity: 1;
+        transition: opacity 180ms;
+      }
+
+      &.disabled {
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 180ms;
+
+        &:hover {
+          opacity: 0;
+          transition: opacity 180ms;
+        }
+      }
+    }
+
+    .owl-next {
+      transform: rotate(-90deg);
+    }
+  }
+
+  .year_partners_slide {
+    display: block;
+    padding-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    background-color: transparent;
+    transition: background-color 180ms, box-shadow 180ms;
+
+    .img_wrap {
+      height: 304px;
+      margin-bottom: 20px;
+    }
+
+    .client_logo {
+      max-height: 37px;
+      display: inline-block;
+      text-align: left;
+      width: auto;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      opacity: 0;
+      transition: opacity 180ms;
+      color: #242424;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+
+    .read_more {
+      opacity: 0;
+      transition: opacity 180ms;
+      margin-left: 20px;
+    }
+
+    &:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.16);
+      background-color: #fff;
+      transition: background-color 180ms, box-shadow 180ms;
+
+      p,
+      .read_more {
+        opacity: 1;
+        transition: opacity 180ms;
+      }
+    }
+  }
+}

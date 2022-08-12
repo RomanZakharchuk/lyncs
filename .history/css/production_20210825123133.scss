@@ -1,0 +1,241 @@
+.main_top {
+  background: #afafaf url("../img/production_top_bg.jpg") no-repeat center/cover;
+
+  @media all and (max-width: 1400px) {
+    padding-top: 20px;
+  }
+}
+
+.main_activities {
+  padding-top: 100px;
+  padding-bottom: 130px;
+
+  .above_title,
+  .title_h2 {
+    text-align: center;
+  }
+
+  .title_h2 {
+    margin-bottom: 70px;
+  }
+
+  .activities_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+  }
+
+  .one {
+    flex: none;
+    width: 398px;
+    height: 398px;
+    box-shadow: 0 8px 15px rgba(36, 36, 36, 0.1);
+    transition: box-shadow 180ms;
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #242424;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    font-weight: 700;
+
+    &:hover {
+      box-shadow: 0 8px 15px rgba(36, 36, 36, 0.3);
+      transition: box-shadow 180ms;
+    }
+
+    img {
+      width: 140px;
+      height: 140px;
+      margin-bottom: 75px;
+    }
+
+    & + .one {
+      margin-left: 16px;
+    }
+  }
+
+  .btn_inner2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  &:before {
+    width: 136px;
+    height: 131px;
+    top: 480px;
+    left: 105px;
+    transform: rotate(340deg);
+    background: url(../img/form_bg_blur.png) no-repeat center / contain;
+  }
+
+  &:after {
+    width: 231px;
+    height: 289px;
+    top: 100px;
+    right: 157px;
+    transform: rotate(180deg);
+    background: url(../img/form_bg_blur.png) no-repeat center / contain;
+  }
+}
+
+.technologies {
+  padding-top: 130px;
+  padding-bottom: 200px;
+  background-color: #242424;
+
+  .above_title,
+  .title_h2 {
+    color: #fff;
+  }
+
+  .title_h2 {
+    margin-bottom: 140px;
+  }
+}
+
+.guaranty {
+  padding-top: 100px;
+  padding-bottom: 260px;
+
+  .above_title,
+  .title_h2 {
+    text-align: center;
+  }
+
+  .title_h2 {
+    margin-bottom: 90px;
+  }
+
+  .one_download {
+    width: 260px;
+    height: 260px;
+    box-shadow: 0 8px 15px rgba(36, 36, 36, 0.1);
+    border-radius: 15px;
+    background: #ffffff;
+    display: block;
+
+    @media all and (max-width: 1400px) {
+      width: 100%;
+      height: 192px;
+    }
+
+    span {
+      cursor: pointer;
+      color: #242424;
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+      font-family: Helvetica;
+      font-weight: 700;
+      text-transform: uppercase;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      transform: translate(-50%, -50%);
+      opacity: 1;
+      transition: opacity 180ms;
+
+      @media all and (max-width: 1400px) {
+        font-size: 17px;
+        padding: 15px;
+      }
+    }
+
+    &:before {
+      content: "";
+      width: 27px;
+      height: 31px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+      opacity: 0;
+      transition: opacity 180ms;
+      position: absolute;
+      top: 77px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: url("../img/pdf_icon.svg") no-repeat center / contain;
+
+      @media all and (max-width: 1400px) {
+        top: 50px;
+      }
+    }
+
+    &:after {
+      content: "ЗАВАНТАЖУЙ PDF";
+      font-size: 20px;
+      color: #ffffff;
+      opacity: 0;
+      transition: opacity 180ms;
+      position: absolute;
+      bottom: 75px;
+      width: 150px;
+      left: 50%;
+      text-align: center;
+      transform: translateX(-50%);
+
+      @media all and (max-width: 1400px) {
+        bottom: 50px;
+      }
+    }
+
+    &:hover {
+      background: #00b6be url("../img/team_hover_modal.svg") no-repeat center /
+        auto 170px;
+
+      &.second {
+        background: #be3300 url("../img/team_hover_modal.svg") no-repeat center /
+          auto 170px;
+      }
+
+      &.third {
+        background: #00be7c url("../img/team_hover_modal.svg") no-repeat center /
+          auto 170px;
+      }
+
+      &.forth {
+        background: #0066be url("../img/team_hover_modal.svg") no-repeat center /
+          auto 170px;
+      }
+
+      &.fifth {
+        background: #be9900 url("../img/team_hover_modal.svg") no-repeat center /
+          auto 170px;
+      }
+
+      &.sixth {
+        background: #be007c url("../img/team_hover_modal.svg") no-repeat center /
+          auto 170px;
+      }
+
+      span {
+        opacity: 0;
+        transition: opacity 180ms;
+      }
+
+      &::before,
+      &:after {
+        opacity: 1;
+        transition: opacity 180ms;
+      }
+    }
+  }
+}

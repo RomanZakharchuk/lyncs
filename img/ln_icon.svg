@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
+  <g id="Group_9386" data-name="Group 9386" transform="translate(-1717 -972)" opacity="0.998">
+    <path id="Icon_ionic-logo-linkedin" data-name="Icon ionic-logo-linkedin" d="M19.22,4.5H5.867A1.305,1.305,0,0,0,4.5,5.746V19.129A1.408,1.408,0,0,0,5.867,20.5H19.216A1.336,1.336,0,0,0,20.5,19.129V5.746A1.227,1.227,0,0,0,19.22,4.5ZM9.46,17.837H7.167V10.71H9.46ZM8.393,9.626H8.376A1.176,1.176,0,0,1,7.167,8.4,1.184,1.184,0,0,1,8.405,7.167,1.181,1.181,0,0,1,9.63,8.4,1.184,1.184,0,0,1,8.393,9.626Zm9.444,8.21H15.545v-3.9c0-.934-.333-1.571-1.163-1.571a1.254,1.254,0,0,0-1.175.846,1.543,1.543,0,0,0-.079.563v4.059H10.835V10.71h2.292V11.7a2.32,2.32,0,0,1,2.067-1.159c1.5,0,2.642.992,2.642,3.13v4.164Z" transform="translate(1721 976)" fill="#fafafa"/>
+    <g id="Ellipse_54" data-name="Ellipse 54" transform="translate(1717 972)" fill="none" stroke="#d5d5d5" stroke-width="2">
+      <circle cx="16.5" cy="16.5" r="16.5" stroke="none"/>
+      <circle cx="16.5" cy="16.5" r="15.5" fill="none"/>
+    </g>
+  </g>
+</svg>

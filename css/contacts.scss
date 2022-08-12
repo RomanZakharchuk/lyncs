@@ -1,0 +1,158 @@
+.quote {
+  color: #242424;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: right;
+}
+
+.office,
+.management {
+  opacity: 0.5;
+  color: #242424;
+  padding-bottom: 106px;
+  @media all and (max-width: 767px) {
+    padding-bottom: 60px;
+  }
+}
+
+.office {
+  &::after {
+    content: "";
+    position: absolute;
+    width: 266px;
+    height: 259px;
+    top: 71px;
+    left: 160px;
+    background: url(../img/form_bg_blur2.png) no-repeat center/300px auto;
+    z-index: 0;
+  }
+}
+
+.contacts_block {
+  overflow: hidden;
+  padding-top: 220px;
+  background-color: #f5f5f5;
+
+  @media all and (max-width: 1025px) {
+    padding-top: 100px;
+  }
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+  }
+
+  &:before {
+    width: 423px;
+    height: 387px;
+    bottom: 125px;
+    left: -48px;
+    transform: rotate(120deg);
+    background: url(../img/form_bg.png) no-repeat center/250px auto;
+  }
+
+  &:after {
+    width: 340px;
+    height: 349px;
+    right: -64px;
+    bottom: 472px;
+    transform: rotate(346deg);
+    background: url(../img/form_bg.png) no-repeat center/250px auto;
+  }
+}
+
+.one_contact {
+  .wrap {
+    padding-bottom: 100px;
+
+    @media all and (max-width: 1025px) {
+      padding-bottom: 50px;
+    }
+  }
+
+  .name_location {
+    padding-bottom: 19px;
+    text-transform: none;
+  }
+
+  .map_location {
+    padding-bottom: 30px;
+  }
+
+  .phone {
+    display: flex;
+    align-items: center;
+    text-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+    color: #242424;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+
+    &:before {
+      content: "";
+      margin-right: 15px;
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  .tel {
+    &:before {
+      content: "";
+      margin-right: 15px;
+      width: 16px;
+      height: 16px;
+      background: url("../img/phone_icon.svg") no-repeat center / contain;
+    }
+  }
+
+  .mailto {
+    display: flex;
+    align-items: center;
+    text-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+    color: #242424;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-decoration: underline;
+    padding-top: 17px;
+    padding-bottom: 30px;
+  }
+
+  .map {
+    display: flex;
+    align-items: center;
+    color: #242424;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 100px;
+
+    @media all and (max-width: 1025px) {
+      margin-bottom: 50px;
+    }
+
+    &:hover {
+      color: #f2312a;
+    }
+  }
+}
+
+.person_name {
+  text-transform: none;
+  padding-bottom: 19px;
+}
+
+.position_office {
+  text-transform: none;
+  padding-bottom: 30px;
+}

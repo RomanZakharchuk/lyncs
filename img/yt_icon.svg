@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
+  <g id="Group_9388" data-name="Group 9388" transform="translate(-1639 -972)" opacity="0.998">
+    <path id="Icon_ionic-logo-youtube" data-name="Icon ionic-logo-youtube" d="M15.9,7.15a2.43,2.43,0,0,0-2.313-2.538c-1.731-.081-3.5-.113-5.3-.113H7.72c-1.8,0-3.569.031-5.3.113A2.435,2.435,0,0,0,.109,7.157C.031,8.269,0,9.382,0,10.495s.031,2.225.106,3.341a2.438,2.438,0,0,0,2.31,2.547C4.235,16.467,6.1,16.5,8,16.5s3.76-.031,5.582-.119a2.438,2.438,0,0,0,2.313-2.547c.075-1.116.109-2.228.106-3.344S15.971,8.266,15.9,7.15Zm-9.426,6.41V7.419L11,10.488Z" transform="translate(1647.5 977.999)" fill="#fafafa"/>
+    <g id="Ellipse_52" data-name="Ellipse 52" transform="translate(1639 972)" fill="none" stroke="#d5d5d5" stroke-width="2">
+      <circle cx="16.5" cy="16.5" r="16.5" stroke="none"/>
+      <circle cx="16.5" cy="16.5" r="15.5" fill="none"/>
+    </g>
+  </g>
+</svg>
